@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color:aquamarine;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.poster{
+    background-color: white;
+    position: relative;
+    top: -10rem;
+}
+
+.mhalf{
+    height: 450px;
+}
+
+.half{
+    position: relative;
+    top: -12rem;
+}
+
+.item{
+    width: 300px;
+}
+
+.white{
+    background-color: white;
+    height: 300px;
+    position: relative;
+    top: -17rem;
+}
+
+.system{
+    background-color: green;
+    position: relative;
+    top: -6.2rem;
+    height: 250px;
+}
+
+.large{
+    position: relative;
+    top: 4rem;
+}
